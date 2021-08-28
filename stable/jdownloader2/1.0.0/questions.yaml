@@ -383,7 +383,7 @@ questions:
                               type: int
                               min: 9000
                               max: 65535
-                              default: 36093
+                              default: 36094
   - variable: persistence
     label: "Integrated Persistent Storage"
     group: "Storage and Persistence"
@@ -516,7 +516,7 @@ questions:
                 description: "Sets the persistence type"
                 schema:
                   type: string
-                  default: "pvc"
+                  default: "hostPath"
                   enum:
                     - value: "pvc"
                       description: "pvc"
