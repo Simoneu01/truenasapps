@@ -19,7 +19,7 @@ maintainers:
 - email: Simoneu01@users.noreply.github.com
   name: Simoneu01
   url: truecharts.org
-name: jdownloader
+name: jdownloader2
 sources:
 - https://github.com/jlesage/docker-jdownloader-2
 - https://hub.docker.com/r/jlesage/jdownloader-2
