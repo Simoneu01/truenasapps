@@ -1,17 +1,15 @@
 # Introduction
 
-![Version: 6.8.5](https://img.shields.io/badge/Version-6.8.5-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: auto](https://img.shields.io/badge/AppVersion-auto-informational?style=flat-square)
+![Version: 1.0.0](https://img.shields.io/badge/Version-6.8.6-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: auto](https://img.shields.io/badge/AppVersion-auto-informational?style=flat-square)
 
-P2P file synchronization application
+API Support for your favorite torrent trackers.
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://syncthing.net/>
-* <https://github.com/syncthing/syncthing>
-* <https://hub.docker.com/r/syncthing/syncthing>
+* <https://github.com/Jackett/Jackett>
 
 ## Requirements
 
