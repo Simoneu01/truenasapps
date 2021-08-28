@@ -280,7 +280,7 @@ questions:
                               type: int
                               min: 9000
                               max: 65535
-                              default: 36002
+                              default: 36093
         - variable: vnc
           label: "VNC Service"
           description: "VNC Service"
@@ -377,7 +377,7 @@ questions:
                               type: int
                               min: 9000
                               max: 65535
-                              default: 36003
+                              default: 36094
         - variable: myjd
           label: "MyJDownloader"
           description: "Port used by MyJDownloader mobile applications and browser extensions to establish a direct connect to the JDownloader"
@@ -474,7 +474,7 @@ questions:
                               type: int
                               min: 9000
                               max: 65535
-                              default: 36003
+                              default: 36095
   - variable: persistence
     label: "Integrated Persistent Storage"
     group: "Storage and Persistence"
