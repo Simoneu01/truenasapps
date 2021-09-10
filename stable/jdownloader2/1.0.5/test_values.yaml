@@ -1,4 +1,4 @@
-# Default values for Jackett.
+# Default values for jdownloader2.
 
 image:
   repository: jlesage/jdownloader-2
@@ -45,4 +45,6 @@ persistence:
   config:
     enabled: true
     mountPath: "/config"
-    type: emptyDir
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
