@@ -1,14 +1,15 @@
 # Introduction
 
-Authelia is a Single Sign-On Multi-Factor portal for web apps
+JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://github.com/authelia/chartrepo>
-* <https://github.com/authelia/authelia>
+* <https://github.com/jlesage/docker-jdownloader-2>
+* <https://hub.docker.com/r/jlesage/jdownloader-2>
+* <https://jdownloader.org/>
 
 ## Requirements
 
@@ -18,9 +19,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.bitnami.com/bitnami | redis | 15.3.1 |
-| https://truecharts.org/ | common | 7.0.1 |
-| https://truecharts.org/ | postgresql | 2.0.0 |
+| https://truecharts.org/ | common | 6.13.8 |
 
 ## Installing the Chart
 
