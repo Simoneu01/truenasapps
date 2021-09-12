@@ -1,6 +1,6 @@
 # Introduction
 
-JDownloader is a free, open-source download management tool with a huge community of developers that makes downloading as easy and fast as it should be.
+Weblate is a free web-based translation management system.
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**

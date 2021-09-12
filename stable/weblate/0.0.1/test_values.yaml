@@ -1,4 +1,4 @@
-# Default values for jdownloader2.
+# Default values for weblate.
 
 image:
   repository: weblate/weblate
