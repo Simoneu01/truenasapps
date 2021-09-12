@@ -1,14 +1,21 @@
 apiVersion: v2
-appVersion: auto
+appVersion: "4.8-1"
 dependencies:
 - name: common
   repository: https://truecharts.org/
   version: 7.0.1
+- condition: postgresql.enabled
+  name: postgresql
+  repository: https://truecharts.org/
+  version: 2.0.0
+- condition: redis.enabled
+  name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 15.3.1
 deprecated: false
-description: JDownloader is a free, open-source download management tool with a huge
-  community of developers that makes downloading as easy and fast as it should be.
-home: https://github.com/truecharts/apps/tree/master/charts/stable/jackett
-icon: https://jdownloader.org/_media/knowledge/wiki/jdownloader.png?w=150
+description: Weblate is a free web-based translation management system.
+home: https://weblate.org/
+icon: https://s.weblate.org/cdn/weblate.svg
 keywords:
 - jdownloader
 - download
@@ -17,10 +24,10 @@ maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: truecharts.org
-name: jdownloader2
+name: weblate
 sources:
-- https://github.com/jlesage/docker-jdownloader-2
-- https://hub.docker.com/r/jlesage/jdownloader-2
-- https://jdownloader.org/
+- https://weblate.org/
+- https://github.com/WeblateOrg/helm
+- https://github.com/WeblateOrg/docker-compose
 type: application
 version: 0.0.1
