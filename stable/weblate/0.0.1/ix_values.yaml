@@ -5,15 +5,42 @@
 ##
 
 image:
-  repository: jlesage/jdownloader-2
-  tag: v1.7.1
+  repository: weblate/weblate
   pullPolicy: IfNotPresent
+  tag: 4.8-1
 
 #All values here are set as the docker defaults.
 envTpl:
   # Permissions Settings
   USER_ID: "{{ .Values.env.PUID }}"
   GROUP_ID: "{{ .Values.env.PGID }}"
+
+# Enabled postgres
+postgresql:
+  # postgresql.postgresqlUsername -- PostgreSQL user should be a superuser to
+  # be able to install pg_trgm extension. Alternatively you can install it
+  # manually prior starting Weblate.
+  postgresqlUsername: "postgres"
+  postgresqlPassword: "weblate"
+  postgresqlDatabase: "weblate"
+  service:
+    port: 5432
+  enabled: true
+  # postgresql.postgresqlHost -- External postgres database endpoint, to be
+  # used if `postgresql.enabled == false`
+  # @default -- `None`
+  postgresqlHost:
+
+redis:
+  password: "weblate"
+  db: 1
+  enabled: true
+  # redis.redisHost -- External redis database endpoint, to be
+  # used if `redis.enabled == false`
+  # @default -- `None`
+  redisHost:
+  cluster:
+    enabled: false
 
 ##
 # Most other defaults are set in questions.yaml
